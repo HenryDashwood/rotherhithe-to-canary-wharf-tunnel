@@ -17,6 +17,15 @@ scales with the bore width (`width_m`). Each feature also has `source` and `conf
 properties (click it to see them). Anything marked **indicative** was drawn from written descriptions,
 not from a published drawing.
 
+## Static map for the blog
+
+The blog uses a static figure in the Centre for British Progress style, laid out on a Design canvas
+(https://claude.ai/artifact/9o3F2t9qs8jzHVzQoGQ9hT): title, labels and legend on the canvas, over
+`basemap.svg`. The notebook's last section writes `basemap.svg` (river, docks, parks and main roads
+from OpenStreetMap, with the ownership and tunnel layers drawn on top) and prints where each tunnel
+crosses the river in pixels, so labels on the canvas can be placed against it. After changing a layer,
+rebuild and upload the new SVG to the canvas.
+
 ## Rebuild
 
 Everything is built by `../nbs/crossing_map/crossing_map.ipynb`, which writes the layers here and
@@ -39,6 +48,7 @@ uv run jupyter nbconvert --to notebook --execute --inplace crossing_map.ipynb
 ## Data sources
 
 - Ownership: HM Land Registry NPS, CCOD and OCOD, © Crown copyright, OGL v3.0.
+- Static basemap (water, parks, roads): OpenStreetMap contributors (ODbL), via Overpass, cached in `sources/basemap_osm.json`.
 - Rail tunnel lines: OpenStreetMap contributors (ODbL), via Oliver O'Brien's
   [tfl_lines.json](https://github.com/oobrien/vis/tree/master/tubecreature/data), cached in `sources/`.
 - Rotherhithe Tunnel shafts, Greenwich and Woolwich foot tunnel entrances, Blackwall Tunnel portals, Silvertown Tunnel midpoint: Wikipedia coordinates.
