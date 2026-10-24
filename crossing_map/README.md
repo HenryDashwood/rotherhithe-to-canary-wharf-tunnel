@@ -3,14 +3,14 @@
 One interactive map of the Rotherhithe to Canary Wharf crossing. Open `crossing_map.html` in a browser.
 Every layer is a GeoJSON file in `layers/` and can be switched on and off in the top-right panel.
 
-| Layer file | What |
-|---|---|
-| `ownership.geojson` | HMLR plots in the readjustment area (750 m of Durand's Wharf, Rotherhithe side), coloured by owner group |
-| `tunnel_proposed.geojson` | The proposed tunnel, Durand's Wharf to the West India Docks impound lock |
-| `tunnel_tfl_2017.geojson` | TfL's 2017 immersed tube option, on the dock-to-dock route IanVisits described |
+| Layer file                 | What                                                                                                                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ownership.geojson`        | HMLR plots in the readjustment area (750 m of Durand's Wharf, Rotherhithe side), coloured by owner group                                                                                      |
+| `tunnel_proposed.geojson`  | The proposed tunnel, Durand's Wharf to the West India Docks impound lock                                                                                                                      |
+| `tunnel_tfl_2017.geojson`  | TfL's 2017 immersed tube option, on the dock-to-dock route IanVisits described                                                                                                                |
 | `tunnels_existing.geojson` | Jubilee line, Thames Tunnel (Overground), Rotherhithe road tunnel, DLR Lewisham tunnel, Greenwich and Woolwich foot tunnels, Elizabeth line, Blackwall Tunnel (both bores), Silvertown Tunnel |
-| `tunnels_historic.geojson` | The abandoned Thames Archway driftway (1805 to 1809), Rotherhithe to Limehouse |
-| `tunnels_utility.geojson` | Thames Tideway and Lee sewer tunnels |
+| `tunnels_historic.geojson` | The abandoned Thames Archway driftway (1805 to 1809), Rotherhithe to Limehouse                                                                                                                |
+| `tunnels_utility.geojson`  | Thames Tideway and Lee sewer tunnels                                                                                                                                                          |
 
 On the map, solid lines are built, dashed lines proposed and dotted lines abandoned, and line width
 scales with the bore width (`width_m`). Each feature also has `source` and `confidence`
@@ -25,6 +25,11 @@ The blog uses a static figure in the Centre for British Progress style, laid out
 from OpenStreetMap, with the ownership and tunnel layers drawn on top) and prints where each tunnel
 crosses the river in pixels, so labels on the canvas can be placed against it. After changing a layer,
 rebuild and upload the new SVG to the canvas.
+
+`crossing_map.svg` is the finished, blog-ready figure: the basemap plus the title, tunnel labels, place
+names, scale bar, legend and sources, matching the canvas, with Inter and Merriweather embedded so it
+renders the same anywhere. Its label text and positions are set in the notebook (`CARDS`, `PLACES`), so a
+wording change on the canvas needs making there too.
 
 ## Rebuild
 
