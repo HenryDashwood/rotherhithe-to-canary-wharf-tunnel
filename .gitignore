@@ -16,7 +16,9 @@ wheels/
 
 # Large downloads and API caches (re-created by the notebooks)
 data/
-notebooks/cache/
+cache/
+_docs/
+_proc/
 
 # Data files (inputs and outputs); keep code, notebooks, figures and writing only
 *.csv

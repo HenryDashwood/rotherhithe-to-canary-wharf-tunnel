@@ -1,44 +1,54 @@
-# Rotherhithe–Canary Wharf tunnel: land and value research
+# Rotherhithe–Canary Wharf tunnel
 
-Background research for a Centre for British Progress blog pitch on funding a pedestrian/cycle
-tunnel through land readjustment.
+The analysis behind a blog post ([writing/main.md](writing/main.md)) on building a walking and cycling
+tunnel from Rotherhithe to Canary Wharf and paying for it with land readjustment.
 
-## Ownership (scripts)
+It is an [nbdev](https://nbdev.fast.ai) project: the notebooks in `nbs/` are the source, and the code
+they share is exported to the `tunnel` package.
 
-| File | What |
-|---|---|
-| `tunnel_alignment.kml` | Assumed route: Durand's Wharf → Westferry Circus (the old bridge alignment) |
-| `tunnel_catchment_400m.*` | HMLR polygons within 400 m of the route (`../find_intersecting_polygons.py`) |
-| `match_ownership.py` → `tunnel_catchment_owners.*` | Joins CCOD/OCOD corporate ownership onto those polygons |
-| `ownership_map.py` → `ownership_map.png` | Colour-coded ownership map for the pitch |
-| `crossing_catchment.py` → `crossing_catchment_1km.*` | HMLR polygons and owners within 1 km of the TfL 2017 immersed tube entrances, for the crossing map |
+## Notebooks
 
-## Value uplift (notebooks)
+| Notebook | Blog section | Makes |
+|---|---|---|
+| `00_config` | | The route, catchment, assumptions and chart style (`tunnel.config`) |
+| `01_data` | | Cached loaders for every input (`tunnel.data`) |
+| `02_route_and_ownership` | History, Support | `route_map.png`, `land_supermajority.png` and the ownership numbers (`tunnel.ownership`) |
+| `03_access` | | Travel times to Canary Wharf with and without the tunnel, `minutes_saved.png` (`tunnel.access`) |
+| `04_uplift` | Funding, Viability | Hedonic price model and the uplift on existing homes (about £75m), `uplift_map.png` |
+| `05_viability` | Viability | Tunnel cost (about £440m), development value and how it splits, `value_split.png`, `funding_vs_cost.png` |
+| `crossing_map/crossing_map` | Illustration | The interactive map in `crossing_map/` |
 
-Run the notebooks in order:
+Assumptions you might want to change (portals, catchment radius, walking and cycling speeds) are in
+`00_config`. Development and cost assumptions are at the top of `05_viability`.
 
-1. `01_accessibility`: walk, public transport and cycling times to Canary Wharf, before and after the tunnel (OSM networks)
-2. `02_prices`: Land Registry Price Paid sales since 2018 in SE16/SE8/E14/E1W, geocoded, with access times attached
-3. `03_commuting`: Census 2021 home→work flows to Canary Wharf (lockdown-affected)
-4. `04_uplift`: hedonic price-vs-access model, applied to Census households to estimate the uplift on existing homes
-5. `05_development`: new homes that land readjustment within 750 m of the south portal could deliver
-   (override with `RADIUS_M=500` etc.), valued with MHCLG land values plus the tunnel premium, phased
-   and discounted to show how much reserve land could fund
-6. `06_cost`: tunnel cost from three angles (TfL's 2017 option estimate, HS2 unit rates, IPA/BTS benchmark)
-   with optimism bias, and the final funding-vs-cost comparison in present values. This supersedes the placeholder costs in 04/05
-7. `07_crossing_map`: interactive map of the crossing (`crossing_map/crossing_map.html`) with toggleable layers for
-   ownership, nearby tunnels, earlier bridge designs and the proposed portals. Each layer is a GeoJSON in `crossing_map/layers/`
-
-Tunnel assumptions (length factor, lift delay, speeds) are in `notebooks/common.py`.
+## Running
 
 ```bash
-cd notebooks
-uv run jupyter nbconvert --to notebook --execute --inplace 01_accessibility.ipynb
+uv sync
 ```
 
-Raw downloads are cached in `data/raw/`, intermediate outputs go to `data/derived/`, and charts to `figures/`.
+Two inputs need an HM Land Registry account, so they aren't downloaded automatically:
+
+- **National Polygon Service** title plans: set `NPS_DIR` to the folder of `LR_POLY_FULL_*.shp` files.
+- **CCOD and OCOD** owners: the `CCOD_FULL_*.zip` and `OCOD_FULL_*.zip` bulk files, in `data/` or the folder set in `COD_DIR`.
+
+Only `02_route_and_ownership` reads them. It saves the plots it needs to `data/derived/`, so the other
+notebooks run without them. MHCLG's 2023 land value workbook goes in `data/raw/land_values_2023.xlsx`.
+Everything else downloads on first run and is cached in `data/raw/`.
+
+Run the notebooks in order, because later ones read what earlier ones save to `data/derived/`:
+
+```bash
+cd nbs && uv run jupyter nbconvert --to notebook --execute --inplace 0*.ipynb crossing_map/crossing_map.ipynb
+```
+
+After editing an exported cell (`#| export`), regenerate the package and tidy the notebooks:
+
+```bash
+uv run nbdev-export && uv run nbdev-clean
+```
 
 ## Data licences
 
 HM Land Registry data (NPS, CCOD/OCOD, Price Paid) and ONS Census 2021 data are © Crown copyright,
-licensed under the OGL v3.0. Street networks are © OpenStreetMap contributors (ODbL).
+licensed under the OGL v3.0. Street networks and other map features are © OpenStreetMap contributors (ODbL).

@@ -1,14 +1,12 @@
 {
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-  // Notebooks use paths relative to notebooks/ (../data, ../figures), matching `cd notebooks` in the README.
+  // Notebooks run from their own folder (nbs/), like nbdev
   "jupyter.notebookFileRoot": "${fileDirname}",
   "files.watcherExclude": {
-    "**/data/**": true,
-    "**/notebooks/cache/**": true
+    "**/data/**": true
   },
   "search.exclude": {
     "data/**": true,
-    "notebooks/cache/**": true,
     "uv.lock": true
   }
 }

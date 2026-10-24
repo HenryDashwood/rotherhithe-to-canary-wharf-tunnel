@@ -128,7 +128,7 @@ Under a scheme proposed by the think tank Onward, applied to a tunnel between Ca
 
 # Support
 
-<img src="../figures/land_supermajority_excl_parks.png" alt="16 owners hold two-thirds of the land around the Rotherhithe portal" width="70%">
+<img src="../figures/land_supermajority.png" alt="14 owners hold two-thirds of the land around the Rotherhithe portal" width="70%">
 
 Could we assemble a supermajority in favour of the proposal?
 I believe so.
