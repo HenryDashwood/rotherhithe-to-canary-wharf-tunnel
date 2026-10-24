@@ -15,11 +15,12 @@ they share is exported to the `tunnel` package.
 | `02_route_and_ownership` | History, Support | `route_map.png`, `land_supermajority.png` and the ownership numbers (`tunnel.ownership`) |
 | `03_access` | | Travel times to Canary Wharf with and without the tunnel, `minutes_saved.png` (`tunnel.access`) |
 | `04_uplift` | Funding, Viability | Hedonic price model and the uplift on existing homes (about £75m), `uplift_map.png` |
-| `05_viability` | Viability | Tunnel cost (about £440m), development value and how it splits, `value_split.png`, `funding_vs_cost.png` |
-| `crossing_map/crossing_map` | Illustration | The interactive map in `crossing_map/` |
+| `05_cost` | Funding, Viability | Four tunnel cost estimates worked through step by step (central £448m, range £277m–£594m) |
+| `06_viability` | Viability | Development value and how it splits, `value_split.png`, `funding_vs_cost.png` |
+| `crossing_map/crossing_map` | Illustration | The crossing map and tunnel timeline SVGs in `crossing_map/` |
 
 Assumptions you might want to change (portals, catchment radius, walking and cycling speeds) are in
-`00_config`. Development and cost assumptions are at the top of `05_viability`.
+`00_config`. Cost assumptions are in `05_cost` and development assumptions in `06_viability`.
 
 ## Running
 

@@ -13,7 +13,7 @@ import numpy as np
 import osmnx as ox
 import pandas as pd
 
-from .config import BNG, DERIVED, NORTH_PORTAL, PORTAL_DELAY_MIN, SOUTH_PORTAL, to_bng, tunnel_length_m
+from .config import BNG, DERIVED, NORTH_PORTAL, SOUTH_PORTAL, to_bng, tunnel_length_m
 
 # %% ../nbs/03_access.ipynb #8412dea4
 def minutes(metres, kmh):
@@ -41,8 +41,8 @@ def add_link(G, a, b, mins):
 
 # %% ../nbs/03_access.ipynb #c27748f5
 def tunnel_minutes(kmh):
-    "Portal-to-portal minutes through the tunnel at `kmh`, lifts included."
-    return minutes(tunnel_length_m(), kmh) + 2 * PORTAL_DELAY_MIN
+    "Minutes from ramp head to ramp head at `kmh`."
+    return minutes(tunnel_length_m(), kmh)
 
 
 def with_tunnel(G, kmh):
