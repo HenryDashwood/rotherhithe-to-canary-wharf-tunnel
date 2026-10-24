@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tool caches and editor/OS clutter
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Large downloads and API caches (re-created by the notebooks)
+data/
+notebooks/cache/
+
+# Data files (inputs and outputs); keep code, notebooks, figures and writing only
+*.csv
+*.gpkg
+*.geojson
+*.kml
+*.xlsx
+*.zip
+crossing_map/sources/
+crossing_map/layers/

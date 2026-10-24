@@ -1,0 +1,36 @@
+[project]
+name = "tunnel-stuff"
+version = "0.1.0"
+description = "Land and value research for a Rotherhithe–Canary Wharf pedestrian/cycle tunnel"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "folium>=0.20.0",
+    "geopandas>=1.1.4",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "jupytext>=1.19.5",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.1",
+    "openpyxl>=3.1.5",
+    "osmnx>=2.1.1",
+    "pyogrio>=0.13.0",
+    "pyproj>=3.7.2",
+    "requests>=2.34.2",
+    "shapely>=2.1.2",
+    "statsmodels>=0.15.0",
+]
+
+[tool.ty.environment]
+python = ".venv"
+root = [".", "notebooks"]
+
+[tool.ruff]
+line-length = 119
+src = [".", "notebooks"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.2",
+    "ty>=0.0.91",
+]
