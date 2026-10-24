@@ -1,61 +1,34 @@
 # Crossing map
 
-One interactive map of the Rotherhithe to Canary Wharf crossing. Open `crossing_map.html` in a browser.
-Every layer is a GeoJSON file in `layers/` and can be switched on and off in the top-right panel.
+The blog's two illustrations, in the Centre for British Progress house style, with Inter and Merriweather
+embedded so they render the same anywhere:
 
-| Layer file                 | What                                                                                                                                                                                          |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ownership.geojson`        | HMLR plots in the readjustment area (750 m of Durand's Wharf, Rotherhithe side), coloured by owner group                                                                                      |
-| `tunnel_proposed.geojson`  | The proposed tunnel, Durand's Wharf to the West India Docks impound lock                                                                                                                      |
-| `tunnel_tfl_2017.geojson`  | TfL's 2017 immersed tube option, on the dock-to-dock route IanVisits described                                                                                                                |
-| `tunnels_existing.geojson` | Jubilee line, Thames Tunnel (Overground), Rotherhithe road tunnel, DLR Lewisham tunnel, Greenwich and Woolwich foot tunnels, Elizabeth line, Blackwall Tunnel (both bores), Silvertown Tunnel |
-| `tunnels_historic.geojson` | The abandoned Thames Archway driftway (1805 to 1809), Rotherhithe to Limehouse                                                                                                                |
-| `tunnels_utility.geojson`  | Thames Tideway and Lee sewer tunnels                                                                                                                                                          |
+| File               | What                                                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `crossing_map.svg` | Map of the crossing: the proposed tunnel, TfL's 2017 option, the tunnels already under this stretch of the Thames, and who owns the land within 750 m of the Rotherhithe portal |
+| `timeline.svg`     | The tunnels under the Thames in east London by the year each was finished, ending with the proposed tunnel                                    |
 
-On the map, solid lines are built, dashed lines proposed and dotted lines abandoned, and line width
-scales with the bore width (`width_m`). Each feature also has `source` and `confidence`
-properties (click it to see them). Anything marked **indicative** was drawn from written descriptions,
-not from a published drawing.
-
-## Static map for the blog
-
-The blog uses a static figure in the Centre for British Progress style, laid out on a Design canvas
-(https://claude.ai/artifact/9o3F2t9qs8jzHVzQoGQ9hT): title, labels and legend on the canvas, over
-`basemap.svg`. The notebook's last section writes `basemap.svg` (river, docks, parks and main roads
-from OpenStreetMap, with the ownership and tunnel layers drawn on top) and prints where each tunnel
-crosses the river in pixels, so labels on the canvas can be placed against it. After changing a layer,
-rebuild and upload the new SVG to the canvas.
-
-`crossing_map.svg` is the finished, blog-ready figure: the basemap plus the title, tunnel labels, place
-names, scale bar, legend and sources, matching the canvas, with Inter and Merriweather embedded so it
-renders the same anywhere. Its label text and positions are set in the notebook (`CARDS`, `PLACES`), so a
-wording change on the canvas needs making there too.
+Both were drafted on a Design canvas (https://claude.ai/artifact/9o3F2t9qs8jzHVzQoGQ9hT). Their label text
+and positions are set in the notebook (`CARDS`, `PLACES` and `TIMELINE`), so a wording change on the canvas
+needs making there too.
 
 ## Rebuild
 
-Everything is built by `../nbs/crossing_map/crossing_map.ipynb`, which writes the layers here and
-`crossing_map.html`. It reads the ownership plots saved by `../nbs/02_route_and_ownership.ipynb`, so run that first.
+Both are written by `../nbs/crossing_map/crossing_map.ipynb`. It reads the ownership plots saved by
+`../nbs/02_route_and_ownership.ipynb`, so run that first.
 
 ```bash
 cd nbs/crossing_map
 uv run jupyter nbconvert --to notebook --execute --inplace crossing_map.ipynb
 ```
 
-## Adding layers and annotations
-
-- **New layer:** save any GeoJSON (WGS84) into `layers/` and re-run the crossing map notebook. It appears
-  automatically with a default style; add it to `LAYER_STYLES` in the notebook to name and colour it.
-- **Annotating:** draw on the map with the tools on the left, click **Export** (top right) to download
-  the drawings as `annotations.geojson`, move that file into `layers/`, and rebuild. Give features
-  `name` and `note` properties (in QGIS or geojson.io) and they show in popups.
-- **Measuring:** the ruler tool measures distances and areas; the cursor position shows bottom right.
+Downloads are cached in `sources/` (gitignored); delete a file there to fetch it again.
 
 ## Data sources
 
 - Ownership: HM Land Registry NPS, CCOD and OCOD, © Crown copyright, OGL v3.0.
-- Static basemap (water, parks, roads): OpenStreetMap contributors (ODbL), via Overpass, cached in `sources/basemap_osm.json`.
-- Rail tunnel lines: OpenStreetMap contributors (ODbL), via Oliver O'Brien's
-  [tfl_lines.json](https://github.com/oobrien/vis/tree/master/tubecreature/data), cached in `sources/`.
-- Rotherhithe Tunnel shafts, Greenwich and Woolwich foot tunnel entrances, Blackwall Tunnel portals, Silvertown Tunnel midpoint: Wikipedia coordinates.
+- Basemap (water, parks, roads), rail tunnel extents and the Rotherhithe Tunnel: OpenStreetMap contributors (ODbL), via Overpass.
+- Rail lines: Oliver O'Brien's [tfl_lines.json](https://github.com/oobrien/vis/tree/master/tubecreature/data) (OpenStreetMap, ODbL).
+- Thames Tideway Tunnel: safeguarding corridor from the City of London's INSPIRE map service.
 - Thames Archway: [russiadock.blogspot.com](https://russiadock.blogspot.com/2015/08/before-thames-tunnel-thames-archway.html).
 - TfL 2017 immersed tube: IanVisits (8 November 2017) and TfL consultation Factsheet 2.
