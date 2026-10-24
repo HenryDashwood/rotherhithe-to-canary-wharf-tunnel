@@ -27,7 +27,8 @@ Assumptions you might want to change (portals, catchment radius, walking and cyc
 uv sync
 ```
 
-Two inputs need an HM Land Registry account, so they aren't downloaded automatically:
+Two inputs need an HM Land Registry account, so they aren't downloaded automatically. Point to them in
+a `.env` file at the project root (copy `.env.example`):
 
 - **National Polygon Service** title plans: set `NPS_DIR` to the folder of `LR_POLY_FULL_*.shp` files.
 - **CCOD and OCOD** owners: the `CCOD_FULL_*.zip` and `OCOD_FULL_*.zip` bulk files, in `data/` or the folder set in `COD_DIR`.

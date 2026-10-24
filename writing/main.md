@@ -132,9 +132,10 @@ Under a scheme proposed by the think tank Onward, applied to a tunnel between Ca
 
 Could we assemble a supermajority in favour of the proposal?
 I believe so.
-Leaving aside parks and water, Southwark Council and eight housing associations own nearly half the land.
-The next ten largest owners take that just past two-thirds.
-There are then about 1,500 private titles, mostly flat leases.
+Within 750 metres of Durand’s Wharf, leaving aside parks and water, Southwark Council and eight housing associations own half the freehold land.
+Just 14 owners between them hold two-thirds.
+Private individuals own the freeholds of about a sixth of the land, across roughly 800 titles.
+On top of those there are around 2,300 private leases, mostly flats.
 
 Here London’s recent experience is encouraging.
 Since 2018, estate regeneration schemes funded by City Hall have needed residents to approve them in a ballot.
@@ -151,13 +152,47 @@ Now let’s do some modelling to see whether the property development could fund
 
 # Viability
 
-TODO model how much the tunnel would cost
+I take TfL’s own 2017 estimate for a tunnel on this crossing, £440m in 2025 prices, as the central case.
+As a check I built two estimates up from other tunnels: one from HS2’s unit rates for bored tunnels and shafts, one from a government benchmark for short UK tunnels.[^17] With the Treasury’s allowance for optimism bias added, they range from £277m to £594m, which brackets TfL’s figure.
+Spending would come over four years once two years of design and consents were done.
+Discounted at the Treasury’s 3.5% rate, £440m spent then is worth £391m today.
 
-TODO model how much the tunnel would raise existing property values
+I looked at around 21,000 sales since 2018 in Rotherhithe, Deptford, the Isle of Dogs and Wapping, and compared prices with how long it takes to get to Canary Wharf on foot or by public transport.
+Allowing for the type of home, the year of sale and distance to the river, a 10% shorter journey goes with prices about 3% higher.
+The tunnel cuts the trip from Durand’s Wharf from 30 minutes to 18.
+Across the 131,000 households in the area that adds about £76m, almost all of it in Rotherhithe.
+Only about 2,500 households would see their home’s value rise by more than 1%.
+That is 17% of the tunnel’s cost, and a tax could only ever take part of it.
 
-TODO model how much value the redeveloped area would create net of development costs
+The new homes are a different matter.
+The readjustment area, everything within 750 metres of Durand’s Wharf on the Rotherhithe side, has 59 hectares that could be built on once parks, water and schools are left out.
+About 3,700 households live there today, around 62 homes per hectare.
+The government’s land valuers assume 260 homes per hectare counts as high density in Southwark and 400 across the river in Tower Hamlets.[^18]
+Suppose a third of the land were rebuilt at 400 homes per hectare.
+That would replace about 1,300 existing homes and add about 7,000 new ones.
 
-TODO model how this value would be split between existing land owners, funding the tunnel, anything else, et
+Each new home is worth something as land before anyone builds on it.
+The same valuations put Southwark’s high-density residential land at about £264,000 per home in 2025 prices.
+The tunnel adds a little to that: about 3.5% on a typical £610,000 new-build flat in SE16.
+If the new homes were completed at 500 a year from the sixth year, the land under them would be worth about £1.4billion today.
+
+<img src="../figures/value_split.png" alt="Selling 40% of the new land would cover the tunnel with £170m to spare, and owners would still gain more than £500m" width="70%">
+
+Now split it.
+If 40% of the new land is kept back and sold, it raises £560m in today’s money.
+That covers the £391m tunnel and leaves £170m for the public square at the portal and a contingency.
+The owners keep the other £840m of land.
+Rebuilding the homes that make way for the new ones costs about £308m, which leaves the owners about £530m better off than they started.
+Owners whose land is rebuilt get a new home or plot back, and the gain is shared among them, which is the point of readjustment: the owners as a whole come out ahead.
+
+<img src="../figures/funding_vs_cost.png" alt="Reserve land funding against the tunnel’s cost under each scenario" width="70%">
+
+This depends on building enough.
+Keep back only 30% of the land and the sale still covers the tunnel, just, at 108% of its cost.
+A developer’s 7% discount rate instead of the Treasury’s 3.5% leaves 40% of the land covering 117% of it.
+Building only 300 homes a year stretches the build-out to 24 years but still raises £486m.
+A timid scheme does not work, though.
+Rebuild a fifth of the land at 260 homes per hectare and the sale raises only about half of what the tunnel costs.
 
 [^2]: https://worksinprogress.co/issue/how-to-redraw-a-city
 
@@ -188,3 +223,7 @@ TODO model how this value would be split between existing land owners, funding t
 [^15]: Uber Boat by Thames Clippers, weekday RB4 timetable: https://www.thamesclippers.com/plan-your-journey/timetable/weekday-rb4 . Capacity and weekend frequency: https://www.rivieramm.com/news-content-hub/ubers-fully-electric-ferry-starts-services-on-londons-river-thames-87085
 
 [^16]: TfL’s central £330m (2017 prices) uplifted with the ONS GDP deflator, series YBGB: https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybgb/qna . The range is £434m to £447m.
+
+[^17]: HS2 Ltd, Guide to Tunnelling Costs (2011 unit rates), and the Infrastructure and Projects Authority and British Tunnelling Society’s benchmarking of UK transport tunnels (2016/17), with optimism bias from the Green Book supplementary guidance. The calculations are in `nbs/05_viability.ipynb`.
+
+[^18]: MHCLG, Land value estimates for policy appraisal 2023, residential land at the “high density” assumption for each local authority.

@@ -29,3 +29,6 @@ _proc/
 *.zip
 crossing_map/sources/
 crossing_map/layers/
+
+# Local settings (see .env.example)
+.env
