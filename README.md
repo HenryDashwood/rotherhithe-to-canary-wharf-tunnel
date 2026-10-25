@@ -16,7 +16,7 @@ they share is exported to the `tunnel` package.
 | `03_access` | | Travel times to Canary Wharf with and without the tunnel, `minutes_saved.png` (`tunnel.access`) |
 | `04_uplift` | Funding, Viability | Hedonic price model and the uplift on existing homes (about £75m), `uplift_map.png` |
 | `05_cost` | Funding, Viability | Four tunnel cost estimates worked through step by step (central £203m, range £131m–£370m) |
-| `06_viability` | Viability | Development value and how it splits, `value_split.png`, `funding_vs_cost.png` |
+| `06_viability` | Viability | Development value and how it splits, `value_split.png`, `funding_vs_cost.png`, `readjustment_levels.png` |
 | `crossing_map/crossing_map` | Illustration | `crossing_map.svg` and `timeline.svg`: the crossing map and the timeline of Thames tunnels |
 
 Assumptions you might want to change (the route, riverbed soundings, ramp gradient, catchment radius, walking and

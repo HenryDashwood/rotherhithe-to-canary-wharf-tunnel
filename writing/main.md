@@ -167,6 +167,9 @@ So the land under 6,100 new homes is worth about £1.6 billion, or £1.2 billion
 
 Selling 40% of that land would raise £469m in present value.
 That covers the £180m tunnel more than two and a half times over, leaving £289m for a public square at the portal, other local improvements and a contingency.
+In fact the reserve would pay for the tunnel once just 12% of the land was rebuilt at that density, or 20% at 260 homes per hectare.
+
+<img src="../figures/readjustment_levels.png" alt="The more land is rebuilt, the more each share is worth: the reserve covers the £180m tunnel once about 12% is rebuilt" width="70%">
 
 The existing owners would keep the other 60%, worth £700m.
 Rebuilding their existing 1,100 homes would cost about £280m, so the owners as a whole end up about £420m better off.

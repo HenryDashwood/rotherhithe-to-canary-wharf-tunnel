@@ -6,9 +6,10 @@
 __all__ = ['ROOT', 'RAW', 'DERIVED', 'FIGURES', 'NPS_DIR', 'COD_DIR', 'BNG', 'WGS84', 'SOUTH_RIVER', 'SOUTH_HEAD', 'NORTH_RIVER',
            'NORTH_HEAD', 'CANARY_WHARF', 'QUAY_ODN', 'CHART_DATUM_ODN', 'COVER_M', 'ROOF_M', 'HEADROOM_M',
            'RIVERBED_CD', 'RAMP_GRADIENT', 'RAMP_PITCH_M', 'SOUTH_PORTAL', 'NORTH_PORTAL', 'WALK_KMH', 'CYCLE_KMH',
-           'LIFT_DELAY_MIN', 'STUDY_BBOX', 'CATCHMENT_M', 'PRICE_YEAR', 'COLOURS', 'BACKGROUND', 'to_bng', 'to_lonlat',
-           'river_crossing', 'walkway_limit', 'walkway_profile', 'ramp_lengths', 'tunnel_length_m', 'folded_ramp',
-           'ramps', 'entrances', 'tunnel_line', 'catchment', 'use_style']
+           'LIFT_DELAY_MIN', 'STUDY_BBOX', 'CATCHMENT_M', 'PRICE_YEAR', 'CREAM', 'INK', 'GREEN', 'SLATE', 'TEXT',
+           'PALE', 'COLOURS', 'BACKGROUND', 'HOUSE_CMAP', 'FONTS', 'to_bng', 'to_lonlat', 'river_crossing',
+           'walkway_limit', 'walkway_profile', 'ramp_lengths', 'tunnel_length_m', 'folded_ramp', 'ramps', 'entrances',
+           'tunnel_line', 'catchment', 'house_fonts', 'use_style']
 
 # %% ../nbs/00_config.ipynb #3196dbb1
 import os
@@ -156,19 +157,45 @@ def catchment() -> Point:
 PRICE_YEAR = 2025
 
 # %% ../nbs/00_config.ipynb #2e37ff19
+CREAM, INK, GREEN, SLATE, TEXT, PALE = "#FFFBEA", "#0A4938", "#3A8D5D", "#4E6464", "#293130", "#DCEBDD"
 COLOURS = {
-    "tunnel": "#e8673a", "southwark": "#2b78d6", "housing": "#ee6a37", "other": "#1db07f", "rest": "#b8b8b0", "private": "#dcdcd6",
-    "water": "#d6e4ef", "land": "#f0efea", "park": "#cfe3c8", "jubilee": "#7b868c", "text": "#555555",
+    "tunnel": INK, "ink": INK, "green": GREEN, "pale": PALE, "text": SLATE, "rule": "#C9C3A8",
+    "southwark": "#5F9F78", "housing": "#6F9FD6", "other": "#B9A066", "rest": "#D3C7A4", "private": "#EAE2C8",
+    "water": "#CFE0E6", "land": "#F3EED8", "park": "#E1E6CC", "building": "#E4DCC2", "jubilee": "#7B868C",
 }  # fmt: skip
-BACKGROUND = "#fbfbf9"
+BACKGROUND = CREAM
+HOUSE_CMAP = mpl.colors.LinearSegmentedColormap.from_list("house", [PALE, GREEN, INK])
+FONTS = {  # Google Fonts static TTFs, as in the crossing map
+    "Inter-Regular.ttf": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "Inter-SemiBold.ttf": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+}
+
+
+def house_fonts():
+    "Download the house fonts once (to `data/raw/fonts/`) and register them with matplotlib."
+    import requests
+    from matplotlib import font_manager
+
+    folder = RAW / "fonts"
+    folder.mkdir(exist_ok=True)
+    for name, url in FONTS.items():
+        path = folder / name
+        if not path.exists():
+            path.write_bytes(requests.get(url, timeout=60).content)
+        font_manager.fontManager.addfont(str(path))
 
 
 def use_style():
-    "Apply the blog's chart style to matplotlib."
+    "Apply the house chart style to matplotlib."
+    house_fonts()
+    mpl.colormaps.register(HOUSE_CMAP, force=True)
     mpl.rcParams.update({
         "figure.facecolor": BACKGROUND, "axes.facecolor": BACKGROUND, "savefig.facecolor": BACKGROUND,
-        "savefig.dpi": 150, "savefig.bbox": "tight", "font.size": 11, "legend.frameon": False,
-        "axes.titlesize": 15, "axes.titleweight": "bold", "axes.titlelocation": "left",
-        "axes.spines.top": False, "axes.spines.right": False, "axes.edgecolor": "#aaaaaa",
-        "axes.labelcolor": COLOURS["text"], "xtick.color": COLOURS["text"], "ytick.color": COLOURS["text"],
+        "savefig.dpi": 150, "savefig.bbox": "tight", "font.family": "Inter", "font.size": 11, "text.color": TEXT,
+        "legend.frameon": False, "legend.labelcolor": TEXT,
+        "axes.titlesize": 12, "axes.titleweight": "semibold", "axes.titlelocation": "left", "axes.titlecolor": TEXT,
+        "axes.spines.top": False, "axes.spines.right": False, "axes.edgecolor": SLATE, "axes.linewidth": 0.8,
+        "axes.labelcolor": SLATE, "xtick.color": SLATE, "ytick.color": SLATE, "xtick.major.width": 0.8,
+        "ytick.major.width": 0.8, "grid.color": "#ECE5CB", "grid.linewidth": 0.8,
+        "axes.prop_cycle": mpl.cycler(color=[INK, GREEN, "#6F9FD6", "#B9A066", SLATE]),
     })  # fmt: skip

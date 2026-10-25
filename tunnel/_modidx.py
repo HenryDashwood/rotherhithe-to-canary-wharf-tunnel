@@ -13,6 +13,7 @@ d = { 'settings': {'branch': 'main', 'doc_baseurl': '/', 'doc_host': '', 'git_ur
             'tunnel.config': { 'tunnel.config.catchment': ('config.html#catchment', 'tunnel/config.py'),
                                'tunnel.config.entrances': ('config.html#entrances', 'tunnel/config.py'),
                                'tunnel.config.folded_ramp': ('config.html#folded_ramp', 'tunnel/config.py'),
+                               'tunnel.config.house_fonts': ('config.html#house_fonts', 'tunnel/config.py'),
                                'tunnel.config.ramp_lengths': ('config.html#ramp_lengths', 'tunnel/config.py'),
                                'tunnel.config.ramps': ('config.html#ramps', 'tunnel/config.py'),
                                'tunnel.config.river_crossing': ('config.html#river_crossing', 'tunnel/config.py'),
