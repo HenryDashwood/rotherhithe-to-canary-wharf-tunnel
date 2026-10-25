@@ -34,7 +34,7 @@ This is roughly what the 2 metre cycleway on Blackfriars Bridge already carries 
 It could also take 2,500 pedestrians an hour each way before the footway even started to feel busy[^4].
 That is around 4,500 people an hour in each direction, about five times what the ferry can manage.
 
-# History 
+# History
 
 There is perhaps no section of river in the world with a more storied history of tunnelling.
 First attempted by Cornish engineers at the dawn of the 19th century, it was Marc Brunel armed with his tunnelling shield who dug the first tunnel under a navigable river between Rotherhithe and Wapping, completed in 1843.
@@ -57,11 +57,11 @@ TfL consulted on it in 2017.
 By March 2019 its estimated cost had risen to £463m, with a range that could pass £600m, against £350m set aside for it.[^7] That June TfL paused the bridge as unaffordable.
 
 TfL also consulted on a tunnel in 2017.
-It was set aside as, at about £330m, it cost roughly twice as much as the bridge was then expected to.[^8] Given the extra constraints and costs a bridge would have to overcome, I believe a tunnel will be will be easier to deliver.
+It was set aside as, at about £330m, it cost roughly twice as much as the bridge was then expected to.[^8] Given the extra constraints and costs a bridge would have to overcome, I believe a tunnel will be easier to deliver.
 
 <img src="../figures/crossing_map.svg" alt="The proposed tunnel among the other tunnels under this stretch of the Thames, with who owns the land within 750 metres of its Rotherhithe entrance" width="100%">
 
-# Design 
+# Design
 
 There are a few ways one can build a tunnel under the Thames.
 
@@ -169,15 +169,10 @@ Selling 40% of that land would raise £469m in present value.
 That covers the £180m tunnel more than two and a half times over, leaving £289m for a public square at the portal, other local improvements and a contingency.
 In fact the reserve would pay for the tunnel once just 12% of the land was rebuilt at that density, or 20% at 260 homes per hectare.
 
-<img src="../figures/readjustment_levels.png" alt="The more land is rebuilt, the more each share is worth: the reserve covers the £180m tunnel once about 12% is rebuilt" width="70%">
-
 The existing owners would keep the other 60%, worth £700m.
 Rebuilding their existing 1,100 homes would cost about £280m, so the owners as a whole end up about £420m better off.
 
-If only 300 homes a year were built instead of 500, the reserve would still raise £412m.
-At a developer’s 7% discount rate instead of the Treasury’s 3.5%, that still covers the cost more than twice over.
-Even the most cautious scheme I modelled, rebuilding a fifth of the land at Southwark’s own high-density assumption of 260 homes per hectare with a 30% reserve, raises 75% of the cost.
-Keeping back 40% gets it to 99%.
+<img src="../figures/readjustment_levels.png" alt="The more land is rebuilt, the more each share is worth: the reserve covers the £180m tunnel once about 12% is rebuilt" width="70%">
 
 <img src="../figures/value_split.png" alt="Selling 40% of the new land would cover the tunnel with £289m to spare, and owners would still gain about £420m" width="70%">
 
