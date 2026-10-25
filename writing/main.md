@@ -154,7 +154,7 @@ They should be even easier to win over, since readjustment hands them property w
 
 # Viability
 
-The tunnel and its ramps would cost about £203m in 2025 prices, based on similar items in TfL’s Silvertown costing.[^12] Spent over four years after two years of design and consents, its present value is £180m at the Treasury’s 3.5% discount rate.
+The tunnel and its ramps would cost about £203m in 2025 prices, based on similar items in TfL’s Silvertown tunnel costing.[^12] Spent over four years after two years of design and consents, its present value is £180m at the Treasury’s 3.5% discount rate.
 The casting dock and the ramps are the biggest items.
 
 The readjustment area, everything within 750 metres of the Nelson Dock entrance on the Rotherhithe side, has 52 hectares that could be built on once parks, water and schools are excluded.
@@ -203,13 +203,13 @@ I hope to see it come to life in the future as new residents and make their live
 
 [^9]: https://www.ianvisits.co.uk/blog/2017/11/08/pedestrian-and-cyclist-bridge-planned-for-the-thames/ https://web.archive.org/web/2018/https://consultations.tfl.gov.uk/rivercrossings/rotherhithe-canarywharf/user_uploads/r2cw---factsheet-2---crossing-options.pdf
 
-[^10]: https://web.archive.org/web/2018/https://consultations.tfl.gov.uk/rivercrossings/rotherhithe-canarywharf/user_uploads/r2cw---background-to-consultation-report.pdf https://assets.pla.co.uk/hydrographic-services/main-survey-charts/319msc.pdf https://environment.data.gov.uk/asset-management/downloads/spatial-flood-defences.pdf `nbs/00_config.ipynb`
+[^10]: https://web.archive.org/web/2018/https://consultations.tfl.gov.uk/rivercrossings/rotherhithe-canarywharf/user_uploads/r2cw---background-to-consultation-report.pdf https://assets.pla.co.uk/hydrographic-services/main-survey-charts/319msc.pdf https://environment.data.gov.uk/asset-management/downloads/spatial-flood-defences.pdf https://github.com/HenryDashwood/rotherhithe-to-canary-wharf-tunnel/blob/main/nbs/00_config.ipynb
 
 [^11]: https://web.archive.org/web/2018/https://consultations.tfl.gov.uk/rivercrossings/rotherhithe-canarywharf/user_uploads/r2cw---background-to-consultation-report.pdf https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybgb/qna
 
-[^12]: https://content.tfl.gov.uk/st-silvertown-crossing-study-tunnel-engineering.pdf `nbs/05_cost.ipynb`
+[^12]: https://content.tfl.gov.uk/st-silvertown-crossing-study-tunnel-engineering.pdf https://github.com/HenryDashwood/rotherhithe-to-canary-wharf-tunnel/blob/main/nbs/05_cost.ipynb
 
-[^13]: `nbs/04_uplift.ipynb`
+[^13]: https://github.com/HenryDashwood/rotherhithe-to-canary-wharf-tunnel/blob/main/nbs/04_uplift.ipynb
 
 [^14]: https://worksinprogress.co/issue/how-to-redraw-a-city
 
