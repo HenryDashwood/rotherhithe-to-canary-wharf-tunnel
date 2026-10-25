@@ -27,6 +27,7 @@ _proc/
 *.kml
 *.xlsx
 *.zip
+*.docx
 
 # Local settings (see .env.example)
 .env
