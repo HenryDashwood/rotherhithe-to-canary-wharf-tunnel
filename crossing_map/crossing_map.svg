@@ -27,17 +27,11 @@
 <path d="M333.9,623.5L371.2,591.6L376.3,587.1L380.5,583.1L383.7,579.1L385.5,576.3L386.7,573.7L387.6,571.1L416.2,459.5L416.9,456.6L417.3,454.3L417.6,451.9L417.9,445.5L422.5,360.3L429.2,246.1L429.5,243.6L429.8,242.1L430.3,240.4L431.5,237.7L434.1,232.5L440.0,220.9L446.1,208.8L451.5,200.3L457.1,193.0L463.1,186.2L470.4,179.5L478.7,173.0L484.8,169.2L492.8,164.9L500.6,161.6L509.8,158.6L522.0,155.7L537.6,152.4L553.5,149.0L628.4,133.9" fill="none" stroke="#FFFBEA" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
 <path d="M333.9,623.5L371.2,591.6L376.3,587.1L380.5,583.1L383.7,579.1L385.5,576.3L386.7,573.7L387.6,571.1L416.2,459.5L416.9,456.6L417.3,454.3L417.6,451.9L417.9,445.5L422.5,360.3L429.2,246.1L429.5,243.6L429.8,242.1L430.3,240.4L431.5,237.7L434.1,232.5L440.0,220.9L446.1,208.8L451.5,200.3L457.1,193.0L463.1,186.2L470.4,179.5L478.7,173.0L484.8,169.2L492.8,164.9L500.6,161.6L509.8,158.6L522.0,155.7L537.6,152.4L553.5,149.0L628.4,133.9" fill="none" stroke="#293130" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M751.7,327.6L786.4,220.4" fill="none" stroke="#8C6D31" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.1 6"/>
-<path d="M874.8,463.7L916.5,461.3L1080.4,500.9L1113.1,505.7" fill="none" stroke="#FFFBEA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<path d="M874.8,463.7L916.5,461.3L1080.4,500.9L1113.1,505.7" fill="none" stroke="#4E6464" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
 <path d="M892.1,466.7L916.8,465.2L916.5,461.3L874.8,463.7L874.6,459.7L916.3,457.3L1079.2,508.7L1112.0,513.6L1112.5,509.6L1079.8,504.8L1080.4,500.9L1113.1,505.7L1113.7,501.8L1080.9,497.0L1081.5,493.1L1086.2,493.8" fill="none" stroke="#FFFBEA" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
 <path d="M892.1,466.7L916.8,465.2L916.5,461.3L874.8,463.7L874.6,459.7L916.3,457.3L1079.2,508.7L1112.0,513.6L1112.5,509.6L1079.8,504.8L1080.4,500.9L1113.1,505.7L1113.7,501.8L1080.9,497.0L1081.5,493.1L1086.2,493.8" fill="none" stroke="#0A4938" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="752" cy="328" r="4" fill="#FFFBEA" stroke="#8C6D31" stroke-width="2.5"/>
-<circle cx="875" cy="464" r="4.5" fill="#FFFBEA" stroke="#4E6464" stroke-width="2.5"/>
-<circle cx="1113" cy="506" r="4.5" fill="#FFFBEA" stroke="#4E6464" stroke-width="2.5"/>
 <circle cx="892" cy="467" r="7" fill="#FFFBEA" stroke="#0A4938" stroke-width="2.5"/>
 <circle cx="1086" cy="494" r="7" fill="#FFFBEA" stroke="#0A4938" stroke-width="2.5"/>
-<line x1="1000" y1="483" x2="1130" y2="404" stroke="#293130" stroke-width="1"/>
-<circle cx="1000" cy="483" r="2.5" fill="#293130"/>
 <line x1="120" y1="768" x2="120" y2="792" stroke="#293130" stroke-width="1"/>
 <circle cx="120" cy="768" r="2.5" fill="#293130"/>
 <line x1="244" y1="511" x2="160" y2="640" stroke="#293130" stroke-width="1"/>
@@ -52,10 +46,6 @@
 <circle cx="110" cy="598" r="2.5" fill="#293130"/>
 <line x1="1060" y1="499" x2="1130" y2="574" stroke="#293130" stroke-width="1"/>
 <circle cx="1060" cy="499" r="2.5" fill="#293130"/>
-<rect x="1130" y="372" width="232" height="70" fill="#FFFBEA" fill-opacity="0.94"/>
-<text x="1140.0" y="393.4" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#293130" text-anchor="start" >TfL immersed tube option</text>
-<text x="1140.0" y="413.3" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4E6464" text-anchor="start" >Shortlisted in 2017, not built.</text>
-<text x="1140.0" y="430.3" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4E6464" text-anchor="start" >The proposal follows its route.</text>
 <rect x="24" y="792" width="210" height="70" fill="#FFFBEA" fill-opacity="0.94"/>
 <text x="34.0" y="813.4" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#293130" text-anchor="start" >Jubilee line</text>
 <text x="34.0" y="833.3" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4E6464" text-anchor="start" >1999 · tube trains, Canada Water</text>
@@ -78,12 +68,13 @@
 <rect x="16" y="418" width="160" height="53" fill="#FFFBEA" fill-opacity="0.94"/>
 <text x="26.0" y="439.4" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#293130" text-anchor="start" >Tideway Tunnel</text>
 <text x="26.0" y="459.3" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4E6464" text-anchor="start" >2025 · storm sewer</text>
-<rect x="1130" y="556" width="250" height="119" fill="#0A4938"/>
+<rect x="1130" y="556" width="262" height="137" fill="#0A4938"/>
 <text x="1144.0" y="584.2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFBEA" text-anchor="start" >Proposed tunnel</text>
-<text x="1144.0" y="605.7" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >Nelson Dock to the impound lock:</text>
-<text x="1144.0" y="623.4" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >384 m under the river, ramps folded</text>
-<text x="1144.0" y="641.2" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >in each dock, about 940 m end to end.</text>
-<text x="1144.0" y="658.9" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >A 3.5 m cycle lane beside a 2.5 m footway.</text>
+<text x="1144.0" y="605.7" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >TfL’s 2017 immersed tube route,</text>
+<text x="1144.0" y="623.4" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >Nelson Dock to the impound lock:</text>
+<text x="1144.0" y="641.2" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >384 m under the river, ramps folded</text>
+<text x="1144.0" y="658.9" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >in each dock, about 940 m end to end.</text>
+<text x="1144.0" y="676.7" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#DCEBDD" text-anchor="start" >A 3.5 m cycle lane and 2.5 m footway.</text>
 <text x="860.0" y="451.4" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#0A4938" text-anchor="start" paint-order="stroke" stroke="#FFFBEA" stroke-width="4" stroke-linejoin="round">Nelson Dock</text>
 <text x="1122.0" y="529.4" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#0A4938" text-anchor="start" paint-order="stroke" stroke="#FFFBEA" stroke-width="4" stroke-linejoin="round">Impound lock</text>
 <text x="914.0" y="236.4" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="500" fill="#0A4938" text-anchor="start" >750 m</text>
@@ -110,16 +101,14 @@
 <circle cx="70" cy="1005" r="4.5" fill="#FFFBEA" stroke="#0A4938" stroke-width="2.5"/>
 <circle cx="98" cy="1005" r="4.5" fill="#FFFBEA" stroke="#0A4938" stroke-width="2.5"/>
 <text x="116.0" y="1009.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Proposed walking and cycling tunnel</text>
-<g transform="translate(0 1031)"><line x1="66" y1="0" x2="102" y2="0" stroke="#4E6464" stroke-width="4" stroke-dasharray="7 6" stroke-linecap="round"/></g>
-<text x="116.0" y="1035.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >TfL 2017 immersed tube option</text>
-<g transform="translate(0 1057)"><line x1="66" y1="-4" x2="102" y2="-4" stroke="#EE7C0E" stroke-width="3"/><line x1="66" y1="0" x2="102" y2="0" stroke="#7B868C" stroke-width="3"/><line x1="66" y1="4" x2="102" y2="4" stroke="#6950A1" stroke-width="3"/></g>
-<text x="116.0" y="1061.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Rail: Overground, Jubilee, Elizabeth line</text>
-<g transform="translate(0 1083)"><line x1="66" y1="0" x2="102" y2="0" stroke="#293130" stroke-width="4.5"/></g>
-<text x="116.0" y="1087.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Road tunnel</text>
-<g transform="translate(0 1109)"><line x1="66" y1="0" x2="102" y2="0" stroke="#7FA3A0" stroke-width="3.5" stroke-dasharray="10 4" stroke-linecap="round"/></g>
-<text x="116.0" y="1113.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Sewer tunnel</text>
-<g transform="translate(0 1135)"><line x1="66" y1="0" x2="102" y2="0" stroke="#8C6D31" stroke-width="2.5" stroke-dasharray="0.1 6" stroke-linecap="round"/></g>
-<text x="116.0" y="1139.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Abandoned tunnel</text>
+<g transform="translate(0 1031)"><line x1="66" y1="-4" x2="102" y2="-4" stroke="#EE7C0E" stroke-width="3"/><line x1="66" y1="0" x2="102" y2="0" stroke="#7B868C" stroke-width="3"/><line x1="66" y1="4" x2="102" y2="4" stroke="#6950A1" stroke-width="3"/></g>
+<text x="116.0" y="1035.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Rail: Overground, Jubilee, Elizabeth line</text>
+<g transform="translate(0 1057)"><line x1="66" y1="0" x2="102" y2="0" stroke="#293130" stroke-width="4.5"/></g>
+<text x="116.0" y="1061.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Road tunnel</text>
+<g transform="translate(0 1083)"><line x1="66" y1="0" x2="102" y2="0" stroke="#7FA3A0" stroke-width="3.5" stroke-dasharray="10 4" stroke-linecap="round"/></g>
+<text x="116.0" y="1087.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Sewer tunnel</text>
+<g transform="translate(0 1109)"><line x1="66" y1="0" x2="102" y2="0" stroke="#8C6D31" stroke-width="2.5" stroke-dasharray="0.1 6" stroke-linecap="round"/></g>
+<text x="116.0" y="1113.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Abandoned tunnel</text>
 <text x="504.0" y="978.4" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#3A8D5D" text-anchor="start" letter-spacing="1.68">LAND WITHIN 750 M OF THE ROTHERHITHE PORTAL</text>
 <rect x="504.5" y="998.5" width="22" height="14" fill="#9FCBA9" stroke="#5F9F78"/>
 <text x="540.0" y="1009.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >Southwark Council</text>
@@ -136,7 +125,7 @@
 <g transform="translate(0 1109)"><line x1="504" y1="0" x2="524" y2="0" stroke="#0A4938" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/></g>
 <text x="540.0" y="1113.8" font-family="Inter, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#293130" text-anchor="start" >750 m from the south portal</text>
 <text x="944.0" y="978.4" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#3A8D5D" text-anchor="start" letter-spacing="1.68">NOTES</text>
-<text x="944.0" y="1009.4" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#293130" text-anchor="start" >The proposed and 2017 routes and the Thames Archway are</text>
+<text x="944.0" y="1009.4" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#293130" text-anchor="start" >The proposed route and the Thames Archway are</text>
 <text x="944.0" y="1029.3" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#293130" text-anchor="start" >indicative, drawn from written descriptions rather than</text>
 <text x="944.0" y="1049.3" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#293130" text-anchor="start" >published drawings. The river bed, owned by the Port of</text>
 <text x="944.0" y="1069.3" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#293130" text-anchor="start" >London Authority, is not shaded.</text>
