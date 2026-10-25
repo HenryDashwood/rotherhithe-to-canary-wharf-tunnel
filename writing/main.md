@@ -68,7 +68,7 @@ The tube would pass over the Jubilee line, whose tunnels lie much deeper.
 At its lowest, under the deep channel, the walkway would be about 20 metres below the quay.
 It can climb part of the way back up under the shallow foreshore at each side, at the 1 in 20 slope TfL says most UK ramps are built to, but at the river walls it is still 12 to 16 metres down.[^10] The rest of the climb is a ramp on land: about 250 metres at Rotherhithe and 310 metres at Canary Wharf.
 
-<img src="../figures/tunnel_profile.png" alt="The walkway dips about 20 metres below the quay under the river and climbs back at 1 in 20" width="70%">
+<img src="../figures/tunnel_profile.png" alt="At true scale, the walkway dips about 20 metres below the quay under the river, and the ramps zig-zag back up inside each dock at 1 in 20" width="70%">
 
 Neither dock is that long, so each ramp would fold back and forth inside its dock, three lengths of Nelson Dock and five of the inlet, spilling onto the quays either side.
 Run straight instead, they would end 150 and 240 metres beyond the docks, among the buildings behind.
