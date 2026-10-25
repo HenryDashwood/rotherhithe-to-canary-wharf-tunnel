@@ -12,6 +12,8 @@ Go for a run from the city centre out to Greenwich and back and you’ll pass se
 They are the sort of buildings that are full of commercial offerings further up the river where footfall is greater.
 Mostly though, the buildings of Rotherhithe are from a time when London’s land values were at a low ebb, and are built to a much lower density than you’d see if they were being built today.
 
+![google-earth-view.png](../figures/google-earth-view.png)
+
 We could create a huge amount of value by densifying Rotherhithe.
 But although it is tantalisingly close to Canary Wharf as the crow flies, this section of river is relatively inconvenient to commute across.
 Your options are:
@@ -49,45 +51,40 @@ This decade we have added the Silvertown Tunnel, the Thames Tideway “super sew
 
 <img src="../figures/timeline.svg" alt="Tunnels under the Thames in east London, from the abandoned Thames Archway in 1808 to the Silvertown Tunnel in 2025" width="100%">
 
-Sustrans first proposed a walking and cycling bridge between Rotherhithe and Canary Wharf in 2008, and TfL took the scheme on, consulting on it in 2017.
-93% of respondents backed a new crossing here.[^6] To let tall ships through, it had to be a lift bridge whose deck rose 60 metres.
+Sustrans proposed a walking and cycling bridge between Rotherhithe and Canary Wharf in 2008.
+TfL consulted on it in 2017.
+93% of respondents backed a new crossing.[^6] To let tall ships through, it had to be a lift bridge whose deck rose 60 metres.
 By March 2019 its estimated cost had risen to £463m, with a range that could pass £600m, against £350m set aside for it.[^7] That June TfL paused the bridge as unaffordable.
 
-TfL had looked at a tunnel in 2017 too.
-It was set aside because, at £325m to £335m, it cost roughly twice as much as the bridge was then expected to.[^8]
-By 2019 the bridge was forecast to cost more than the tunnel that had been rejected for being too expensive.
-I suggest we return to the tunnel, and to the kind TfL chose: an immersed tube, a concrete box sunk into a trench dredged across the riverbed.
-Because it sits just below the riverbed rather than deep beneath it, people can reach it by ramps instead of lifts.
-Reporting at the time put TfL’s version between two docks: it would cross about 380 metres of river from the mouth of Nelson Dock on Rotherhithe Street to the inlet of the West India Docks impound lock on Westferry Road, with a ramp inside each dock.[^9]
-Unlike Greenwich, where cyclists have to get off and push, it would be wide enough to ride through, with a cycle lane beside the footway.
-TfL has described the land by the impound lock as unused apart from lock maintenance.
-The tube would pass over the Jubilee line, whose tunnels lie much deeper.
+TfL also consulted on a tunnel in 2017.
+It was set aside as, at about £330m, it cost roughly twice as much as the bridge was then expected to.[^8] Given the extra constraints and costs a bridge would have to overcome, I believe a tunnel will be will be easier to deliver.
 
 <img src="../figures/crossing_map.svg" alt="The proposed tunnel among the other tunnels under this stretch of the Thames, with who owns the land within 750 metres of its Rotherhithe entrance" width="100%">
 
-At its lowest, under the deep channel, the walkway would be about 20 metres below the quay.
-It can climb part of the way back up under the shallow foreshore at each side, at the 1 in 20 slope TfL says most UK ramps are built to, but at the river walls it is still 12 to 16 metres down.[^10] The rest of the climb is a ramp on land: about 250 metres at Rotherhithe and 310 metres at Canary Wharf.
-
-<img src="../figures/tunnel_profile.png" alt="At true scale, the walkway dips about 20 metres below the quay under the river, and the ramps zig-zag back up inside each dock at 1 in 20" width="70%">
-
-Neither dock is that long, so each ramp would fold back and forth inside its dock, three lengths of Nelson Dock and five of the inlet, spilling onto the quays either side.
-Run straight instead, they would end 150 and 240 metres beyond the docks, among the buildings behind.
-
-<img src="../figures/route_map.png" alt="The tunnel would cross between Nelson Dock and the West India Docks impound lock, with its ramps folded inside each dock" width="70%">
-
-From entrance to entrance the tunnel would be about 940 metres long.
-By bike that takes under four minutes.
-On foot it takes about twelve, which is why walkers might still want a lift.
+# Design 
 
 There are a few ways one can build a tunnel under the Thames.
 
 - Hand mining with sprayed concrete is apparently fairly easy in London clay but somewhat risky under water bearing sand.
-- You can drive a tunnel boring machine.
-  The recently completed Tideway super sewer’s bore was 7 metres wide, roughly what we would need for my proposal.
-  The machine is a large fixed cost for a relatively short route.
-- You can dredge a trench and drop a concrete tube into it.
-  This gives you some more flexibility with the shape of the tunnel and minimises how steep the ramps down to it are because it sits just below the river bed.
-  You do have a fair bit of traffic on the river for a while, but this is the design TfL chose in 2017, and the one I cost below.
+- Using a tunnel boring machine.
+  The recently completed Tideway super sewer’s bore was 7 metres wide, roughly what we would need.
+  But a TBM is a large fixed cost for a relatively short route.
+- Dredging a trench and lowering a concrete tube into it.
+  This provides some more flexibility with the shape of the tunnel and minimises how steep the ramps down to it are because it sits just below the river bed.
+  There is a fair bit of traffic on the river for a while.
+  This is the design TfL considered in 2017, and the one whose costs I estimate below.
+
+The tunnel would cross about 380 metres of river from the mouth of Nelson Dock on Rotherhithe Street to the inlet of the West India Docks impound lock on Westferry Road, with a ramp inside each dock.[^9] Unlike Greenwich, where cyclists have to get off and push, it would be wide enough to cycle through, with a bike lane beside the footway.
+
+It would pass over the Jubilee line, whose tunnels lie much deeper.
+At its lowest, under the deep channel, the walkway would be about 20 metres below the quay.
+TfL say most British ramps are built to a gradient of 1 in 20.
+This would leave the tunnel 12 to 16 metres below the top of the river walls.[^10] This height would be covered by a stairs for able bodied pedestrians and by a ramp for cyclists, pushchairs, wheelchairs, etc. The total length of the ramp would be 250 metres at Rotherhithe and 310 metres at Canary Wharf.
+Neither dock is that long, so each ramp would fold back and forth inside its dock, three lengths of Nelson Dock and five of the inlet, spilling onto the quays either side.
+
+<img src="../figures/tunnel_profile.png" alt="At true scale, the walkway dips about 20 metres below the quay under the river, and the ramps zig-zag back up inside each dock at 1 in 20" width="70%">
+
+<img src="../figures/route_map.png" alt="The tunnel would cross between Nelson Dock and the West India Docks impound lock, with its ramps folded inside each dock" width="70%">
 
 # Funding
 
@@ -95,7 +92,7 @@ Whichever project or construction method gets selected, this project will not be
 Construction costs have also risen since 2017.
 Adjusted for inflation, TfL’s £325m to £335m estimate, which included an allowance for risk and the cost of land, is about £448m in 2025 prices.[^11]
 TfL never published what that figure covered.
-Pricing the tube item by item, from TfL’s later and much more detailed costing of an immersed tube at Silvertown, gives about £160m, with a range of £110m to £370m.[^12]
+Pricing the tube item by item, from TfL’s later and much more detailed costing of an immersed tube at Silvertown, gives about £200m, with a range of £130m to £370m.[^12]
 Building costs have risen faster than general prices since 2021, so both may be underestimates.
 Either way, it will be hard to justify spending such an amount out of general taxation.
 
@@ -155,37 +152,38 @@ Estate ballots were mostly held among social tenants and resident leaseholders o
 Many of Rotherhithe’s private leases are likely owned by landlords who don’t live there.
 They should be even easier to win over, since readjustment hands them property worth more than what they put in.
 
-Now let’s do some modelling to see whether the property development could fund the tunnel.
-
 # Viability
 
-The tube and its ramps would cost about £159m in 2025 prices, priced item by item from TfL’s Silvertown costing.[^12]
-Spent over four years after two years of design and consents, its present value is £141m at the Treasury’s 3.5% discount rate.
+The tunnel and its ramps would cost about £203m in 2025 prices, based on similar items in TfL’s Silvertown costing.[^12] Spent over four years after two years of design and consents, its present value is £180m at the Treasury’s 3.5% discount rate.
 The casting dock and the ramps are the biggest items.
 
-The readjustment area, everything within 750 metres of the Nelson Dock entrance on the Rotherhithe side, has 52 hectares that could be built on once parks, water and schools are left out.
+The readjustment area, everything within 750 metres of the Nelson Dock entrance on the Rotherhithe side, has 52 hectares that could be built on once parks, water and schools are excluded.
 Today it has about 63 homes per hectare.
-Rebuild a third of it at 400 homes per hectare, the density the government’s land valuers assume across the river in Tower Hamlets,[^19] and you replace about 1,100 homes and add about 6,100.
+Rebuilding a third of it at 400 homes per hectare (the same density as Tower Hamlets),[^19] would mean replacing 1,100 homes and adding 6,100.
 
-Of a typical £610,000 new-build flat in SE16, about £273,000 is the value of the land: the valuers’ £264,000 for high-density land in Southwark, plus a little extra for being near the tunnel.
-So the land under 6,100 new homes is worth about £1.7 billion, or £1.2 billion in present value, since they would be built over 13 years.
+Of a typical £610,000 new-build flat in SE16, about £264,000 comes from the value of the land, according to the government’s land value estimates for high-density housing in Southwark.[^19]
+Being near the tunnel would probably add to that, but I have left any such premium out, so these figures are conservative.
+So the land under 6,100 new homes is worth about £1.6 billion, or £1.2 billion in present value, since they would be built over 13 years.
 
-Keep back 40% of that land and sell it, and it raises £485m in present value.
-That covers the £141m tunnel more than three times over, leaving £344m for a public square at the portal, other local improvements and a contingency.
+Selling 40% of that land would raise £469m in present value.
+That covers the £180m tunnel more than two and a half times over, leaving £289m for a public square at the portal, other local improvements and a contingency.
 
-<img src="../figures/value_split.png" alt="Selling 40% of the new land would cover the tunnel with £344m to spare, and owners would still gain about £450m" width="70%">
+The existing owners would keep the other 60%, worth £700m.
+Rebuilding their existing 1,100 homes would cost about £280m, so the owners as a whole end up about £420m better off.
 
-The owners keep the other 60%, worth £730m.
-Rebuilding the 1,100 homes that make way costs about £280m, so the owners as a whole end up about £450m better off.
-That matters as much as paying for the tunnel, because nothing happens unless two-thirds of them vote for it.
+If only 300 homes a year were built instead of 500, the reserve would still raise £412m.
+At a developer’s 7% discount rate instead of the Treasury’s 3.5%, that still covers the cost more than twice over.
+Even the most cautious scheme I modelled, rebuilding a fifth of the land at Southwark’s own high-density assumption of 260 homes per hectare with a 30% reserve, raises 75% of the cost.
+Keeping back 40% gets it to 99%.
 
-The sums survive slower building and dearer money.
-Built at 300 homes a year instead of 500, the reserve still raises £427m.
-At a developer’s 7% discount rate instead of the Treasury’s 3.5%, it covers the cost nearly three times over.
-Even the most cautious scheme I tried, rebuilding a fifth of the land at Southwark’s own high-density assumption of 260 homes per hectare with a 30% reserve, raises 99% of the cost.
-Keep back 40% instead and it covers it with a third to spare.
+<img src="../figures/value_split.png" alt="Selling 40% of the new land would cover the tunnel with £289m to spare, and owners would still gain about £420m" width="70%">
 
 # Conclusion
+
+There is nothing more powerful for improving living standards than economic growth compounding upon itself.
+By embracing building thousands of homes in Rotherhithe we create the means to fund a transformative new piece of infrastructure.
+The waterfront between Bermondsey and Greenwich is currently a quiet windswept part of the city.
+I hope to see it come to life in the future as new residents and make their lives there with access to wherever their ambition leads them.
 
 [^1]: https://www.thamesclippers.com/plan-your-journey/timetable/weekday-rb4 https://www.rivieramm.com/news-content-hub/ubers-fully-electric-ferry-starts-services-on-londons-river-thames-87085
 
