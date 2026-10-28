@@ -8,9 +8,9 @@ It has responded to the City’s success in winning back financial tenants by di
 Long may its growth continue.
 
 It’s striking how comparably underdeveloped the Rotherhithe side of the river is.
-Go for a run from the city centre out to Greenwich and back and you’ll pass several gorgeous old buildings from the area’s days as a working dock.
+Travel from the city centre out to Greenwich and back and you’ll pass several gorgeous old buildings from the area’s days as a working dock.
 They are the sort of buildings that are full of commercial offerings further up the river where footfall is greater.
-Mostly though, the buildings of Rotherhithe are from a time when London’s land values were at a low ebb, and are built to a much lower density than you’d see if they were being built today.
+Mostly though, the buildings of Rotherhithe are from a time when London’s land values were at a low ebb and are built to a much lower density than you’d see if they were being built today.
 
 ![google-earth-view.png](../figures/google-earth-view.png)
 
@@ -20,19 +20,15 @@ Your options are:
 
 1. A ferry, the Orbit Clipper, runs every 10 minutes at weekday peaks and every 15 minutes at weekends.[^1] It’s a good service but it costs £4.10 for a ticket, and each boat carries only 150 people, so about 900 people an hour in each direction at best.
 2. Travel in the opposite direction for a kilometre and get the Jubilee Line from Canada Water.
-   The Jubilee line is already bursting at the seams at peak times.
-   When I lived one stop further along near Bermondsey I often found myself waiting for several trains to come and go before one arrived with space to spare.
-3. The next nearest crossings are significantly further away.
-   The Greenwich foot-tunnel is too narrow to allow cyclists and makes them walk their bikes through.
-   The Rotherhithe road tunnel primarily serves cars.
-   It is notoriously toxic and has an extremely narrow pavement.
+3. The next nearest crossings, the Rotherhithe tunnel to the north and the Greenwich foot tunnel to the south are too far away to be practical.
+   Plus the former is notoriously hazardous for non-vehicular traffic and the latter requires cyclists to dismount.
 
 If we want to densify Rotherhithe and create lots of homes next to the high paying jobs in Canary Wharf the infrastructure will need to improve.
 
-A pedestrian and bicycle tunnel built to similar specifications as Bergen’s new Fyllingsdaltunellen (a 3.5 metre cycle lane beside a 2.5 metre footway) could comfortably take around 2,000 cyclists an hour in each direction[^2].
-This is roughly what the 2 metre cycleway on Blackfriars Bridge already carries in the morning peak[^3].
-It could also take 2,500 pedestrians an hour each way before the footway even started to feel busy[^4].
-That is around 4,500 people an hour in each direction, about five times what the ferry can manage.
+A pedestrian and bicycle tunnel built to similar specifications as Bergen’s new Fyllingsdaltunellen (a 3.5 metre cycle lane beside a 2.5 metre footway) could comfortably take around 2,000 cyclists an hour in each direction.[^2]
+This is roughly what the 2 metre cycleway on Blackfriars Bridge already carries in the morning peak.[^3]
+It could also take 2,500 pedestrians an hour each way before the footway even started to feel busy.[^4]
+That is around 4,500 people an hour in each direction, about five times the capacity of the current ferry service.
 
 # History
 
@@ -46,7 +42,7 @@ It was given a twin in the 1960s.
 The Rotherhithe road tunnel ran north to Limehouse in 1908.
 And the Greenwich and Woolwich foot tunnels in 1902 and 1912 respectively.
 
-In my lifetime, the Jubilee Line was extended east through the newly developing Canary Wharf.
+In 1999, the Jubilee Line was extended east through the newly developing Canary Wharf.
 This decade we have added the Silvertown Tunnel, the Thames Tideway “super sewer”, and most recently, much further out along the river, National Grid have bored a 2.2 km tunnel carrying cables between Tilbury and Gravesend, finished in September 2026.[^5]
 
 <img src="../figures/timeline.svg" alt="Tunnels under the Thames in east London, from the abandoned Thames Archway in 1808 to the Silvertown Tunnel in 2025" width="100%">
@@ -71,7 +67,6 @@ There are a few ways one can build a tunnel under the Thames.
   But a TBM is a large fixed cost for a relatively short route.
 - Dredging a trench and lowering a concrete tube into it.
   This provides some more flexibility with the shape of the tunnel and minimises how steep the ramps down to it are because it sits just below the river bed.
-  There is a fair bit of traffic on the river for a while.
   This is the design TfL considered in 2017, and the one whose costs I estimate below.
 
 The tunnel would cross about 380 metres of river from the mouth of Nelson Dock on Rotherhithe Street to the inlet of the West India Docks impound lock on Westferry Road, with a ramp inside each dock.[^9] Unlike Greenwich, where cyclists have to get off and push, it would be wide enough to cycle through, with a bike lane beside the footway.
@@ -98,8 +93,8 @@ Either way, it will be hard to justify spending such an amount out of general ta
 
 We could theoretically fund the tunnel through a tax on the uplift in land value it would create.
 Although existing homes would become more valuable, they wouldn’t do so by nearly enough.
-My estimate is that the tunnel would add only around £29m to the value of existing homes across the whole area, a fraction of its cost.[^13]
-And a tax could only ever capture part of that £29m.
+My estimate is that the tunnel would add only around £29m to the value of existing homes across the whole area, which a tax could only ever capture part of.[^13] Tolling could contribute towards the cost, but not by much.
+With the 2.5 million annual crossings forecast in TfL’s earlier modelling, a £1 toll would take 40 years to pay back my estimated construction costs, and that’s assuming no reduction in use caused by charging.
 
 However, much more importantly, the tunnel would enable the land near it to be built on at a far higher density.
 And the sale of the net additional properties would raise enough money.
@@ -143,14 +138,15 @@ On top of those there are around 2,000 private leases, mostly flats.
 
 Here London’s recent experience is encouraging.
 Since 2018, estate regeneration schemes funded by City Hall have needed residents to approve them in a ballot.
-The first 13 all passed, with about 80% voting yes on turnouts of around 81%.[^17] By 2023 only one had failed, and it passed when it was rerun.[^18]
-Japan’s land readjustment requires two-thirds of affected owners, holding two-thirds of the land.[^16]
-That two-thirds is counted against everyone affected, not just those who vote.
-Even so, 80% of an 81% turnout is about 65% of everyone eligible, right on the threshold.
+The first 13 all passed, with about 80% voting yes on turnouts of around 81%.[^17] By 2023 only one had failed, and it passed when it was rerun.[^18] Japan’s land readjustment requires two-thirds of affected owners, holding two-thirds of the land.[^16] Even so, 80% of an 81% turnout is about 65% of everyone eligible, right on the threshold.
 
 Estate ballots were mostly held among social tenants and resident leaseholders of a single landlord, who were offered new homes on the same site.
 Many of Rotherhithe’s private leases are likely owned by landlords who don’t live there.
 They should be even easier to win over, since readjustment hands them property worth more than what they put in.
+
+Private tenants would need protection of their own.
+I would make the scheme conditional on offering affected renters suitable replacement homes locally at comparable rents, covering their moving costs and providing temporary accommodation where necessary.
+These commitments would have to be agreed, with funding secured, before redevelopment, with their cost deducted before the proceeds are divided between public improvements and landowners.
 
 # Viability
 
@@ -161,20 +157,24 @@ The readjustment area, everything within 750 metres of the Nelson Dock entrance 
 Today it has about 63 homes per hectare.
 Rebuilding a third of it at 400 homes per hectare (the same density as Tower Hamlets),[^19] would mean replacing 1,100 homes and adding 6,100.
 
-Of a typical £610,000 new-build flat in SE16, about £264,000 comes from the value of the land, according to the government’s land value estimates for high-density housing in Southwark.[^19]
-Being near the tunnel would probably add to that, but I have left any such premium out, so these figures are conservative.
+Of a typical £610,000 new-build flat in SE16, about £264,000 comes from the value of the land, according to the government’s land value estimates for high-density housing in Southwark.[^19] I’ve left out any potential premium to being closer to the tunnel, so these figures are conservative.
 So the land under 6,100 new homes is worth about £1.6 billion, or £1.2 billion in present value, since they would be built over 13 years.
 
-Selling 40% of that land would raise £469m in present value.
-That covers the £180m tunnel more than two and a half times over, leaving £289m for a public square at the portal, other local improvements and a contingency.
-In fact the reserve would pay for the tunnel once just 12% of the land was rebuilt at that density, or 20% at 260 homes per hectare.
+The scheme will need to set aside money for the private tenants if it is to be politically feasible.
+Census data suggests about 36% of households in the catchment rent privately, so rebuilding 35% of the area would affect roughly 410 such households if the sites chosen had the same mix of tenures.
+I allow for covering the cost of the tenants moving to temporary homes at a higher rent for two years and then into new homes on the developed land and associated advice and support.
+Including a 20% contingency, this package costs about £66m in present value.[^20]
 
-The existing owners would keep the other 60%, worth £700m.
-Rebuilding their existing 1,100 homes would cost about £280m, so the owners as a whole end up about £420m better off.
+After setting that aside, allocating 40% of the remaining value to public funding would raise £442m in present value.
+That covers the £180m tunnel about two and a half times over, leaving £262m for a public square at the portal, other local improvements and a contingency.
+The public share would pay for the tunnel once about 13% of the land was rebuilt at that density, or 22% at 260 homes per hectare.
 
-<img src="../figures/readjustment_levels.png" alt="The more land is rebuilt, the more each share is worth: the reserve covers the £180m tunnel once about 12% is rebuilt" width="70%">
+The existing owners would keep the other 60% of the remaining value, worth £663m.
+Rebuilding their existing 1,100 homes would cost about £280m, so the owners as a whole end up about £383m better off.
 
-<img src="../figures/value_split.png" alt="Selling 40% of the new land would cover the tunnel with £289m to spare, and owners would still gain about £420m" width="70%">
+<img src="../figures/readjustment_levels.png" alt="Land value is divided between private-tenant protection, public funding, replacement homes and owners. After tenant protection, the public share covers the £180m tunnel once about 13% of the land is rebuilt" width="70%">
+
+<img src="../figures/value_split.png" alt="The central case sets aside £66m for private-tenant protection, funds the £180m tunnel and £280m of replacement homes, leaves £262m for public space and contingency, and gives owners a £383m net gain; all figures are present values" width="70%">
 
 # Conclusion
 
@@ -220,3 +220,5 @@ I hope to see it come to life in the future as new residents and make their live
 [^18]: https://www.newstatesman.com/spotlight/economic-growth/regional-development/2023/03/london-housing-estates-choosing-be-demolished
 
 [^19]: https://www.gov.uk/government/publications/land-value-estimates-for-policy-appraisal-2023
+
+[^20]: https://www.nomisweb.co.uk/datasets/c2021ts054 https://github.com/HenryDashwood/rotherhithe-to-canary-wharf-tunnel/blob/main/nbs/06_viability.ipynb
